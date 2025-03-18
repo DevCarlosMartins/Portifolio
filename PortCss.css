@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+body{
+    background: linear-gradient(to right, #6f76f7, #acd5fd);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 2.4rem; 
+    align-items: center;
+    padding: 0px 32px;
+    font-family: 'EB Garamond', sans-serif;
+    color: #a5b1a5;
+    background-color: #6a70df;   
+}
+
+.nav button{
+    background: transparent ;
+}
+
+
+.nav h1{    
+    font-family: 'EB Garamond', sans-serif;
+    color: #a5b1a5;
+    padding-right: 30rem;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;    
+    gap: 2rem;
+}
+
+.nav ul li{
+    font-weight: 550;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1.2rem;  
+    color: #a5b1a5;
+}
+.nav button{
+    border: none;
+}
+
+.Secao1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    color: white;
+    text-align: center;
+}
+
+.Secao1-Text h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.Secao1-Text p{
+    font-size: 1.5rem;;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.Secao1-Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0; /* Remove o padding */
+    background: none; /* Remove qualquer fundo */
+    border-radius: 0; /* Remove bordas arredondadas */
+}
+
+.image {
+    width: 200px; /* Ajuste o tamanho da imagem */
+    height: 200px; /* Mantém a proporção */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+    border: none; /* Remove bordas */
+}
+
+.image:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+
+.Sobre {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d3d0d0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.Sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e54c8; /* Destaque para o título */
+}
+
+.Sobre p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}   
+
+.skills {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.Contato {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.Contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e54c8;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4e54c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b3f9f;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    color: #8f94fb;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+.Secao1 h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
