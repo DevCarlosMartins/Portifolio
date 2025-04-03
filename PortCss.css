@@ -33,6 +33,7 @@ body{
     
     color: white !important; /* Mantém o texto branco */
     border-radius: 5px;
+    transform: scale(1.1);
 }
 
 .navbar-nav .nav-link:focus, 
@@ -136,6 +137,11 @@ body{
 .skill img {
     width: 50px;
     height: 50px;
+    
+}
+
+.skill img:hover{
+    transform: scale(1.1);
 }
 
 .skill p {
