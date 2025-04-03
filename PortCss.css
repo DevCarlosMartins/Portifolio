@@ -7,49 +7,44 @@
 
 }
 body{
-    background: linear-gradient(to right, #6f76f7, #acd5fd);
+    background: linear-gradient(#000000 10%, #fff 95%);
 }
 
-.nav{
-    display: flex;
+.navbar-expand-lg{
+    background-color: #000000;
     justify-content: space-around;
-    height: 2.4rem; 
-    align-items: center;
-    padding: 0px 32px;
-    font-family: 'EB Garamond', sans-serif;
-    color: #a5b1a5;
-    background-color: #6a70df;   
-}
+    color: #fff;
 
-.nav button{
-    background: transparent ;
 }
 
 
-.nav h1{    
-    font-family: 'EB Garamond', sans-serif;
+.navbar-nav a{
+    color: #fff;
+    justify-content: end;
+
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Mantém a cor do texto branca */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    
+    color: white !important; /* Mantém o texto branco */
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:focus, 
+.navbar-nav .nav-link:active {
+    color: rgb(161, 161, 161) !important; /* Garante que o texto continue branco */
+
+    border-radius: 5px;
+}
+.container-fluid h2{    
+    font-family: 'EB Garamond', sans-serif, !important;
     color: #a5b1a5;
     padding-right: 30rem;
-}
-
-.nav ul{
-    display: flex;
-    list-style: none;    
-    gap: 2rem;
-}
-
-.nav ul li{
-    font-weight: 550;
-}
-
-.nav ul li a{
-    text-decoration: none;
-    font-family: 'EB Garamond', sans-serif;
-    font-size: 1.2rem;  
-    color: #a5b1a5;
-}
-.nav button{
-    border: none;
 }
 
 .Secao1{
@@ -88,8 +83,8 @@ body{
 }
 
 .image {
-    width: 200px; /* Ajuste o tamanho da imagem */
-    height: 200px; /* Mantém a proporção */
+    width: 300px; /* Ajuste o tamanho da imagem */
+    height: 300px; /* Mantém a proporção */
     border-radius: 50%; /* Torna a imagem circular */
     object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
     border: none; /* Remove bordas */
